@@ -7,7 +7,7 @@ export default function ProjectModal({ project, onClose }) {
         <h2>{project.name}</h2>
 
         <div className="images">
-            <img key={'p_img'} src="../../img.png" />
+            <img key={'p_img'} src={project.image} />
         </div>
 
         <p><strong>Description:</strong> {project.writeup}</p>
@@ -18,7 +18,7 @@ export default function ProjectModal({ project, onClose }) {
         <p><strong>What I Learned:</strong> {project.learned}</p>
 
         <a href={project.repo} target="_blank">Repo Link</a>
-
+        <br/>
         <button onClick={onClose}>Close</button>
       </div>
     </div>

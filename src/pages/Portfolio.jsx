@@ -13,8 +13,9 @@ export default function Portfolio() {
             techStack: ['HTML'],
             writeup: "Creating a simple webpage using HTML to write a headline and paragraph and also upload images.",
             learned: "First time creating a webpage with HTML and get into the basics of web development.",
-            role: "Full Stack Developer",
-            challenges: "To understand the basics of HTML and web development and understanding how GitHub works."
+            role: "Developer",
+            challenges: "To understand the basics of HTML and web development and understanding how GitHub works.",
+            image : "../../img.png"
         },
         {
             name: "Second webpage",
@@ -23,7 +24,19 @@ export default function Portfolio() {
             writeup: "creating a webpage from a figma file. The figma file is webdesigned page. to make into a webpage by coding",
             learned: "Learning how to use figma. Coding from a figma file to html and css.",
             role: "Developer",
-            challenges: "Understanding the function of figma and coding it with html and css"
+            challenges: "Understanding the function of figma and coding it with html and css",
+            image : "../../img_1.png"
+        },
+        {
+            name: "Introduction to JS",
+            repo: "https://github.com/bindhada/JS01.git",
+            techStack: ['JAVASCRIPT'],
+            writeup: "Using JavaScript to add functionality to your website.",
+            learned: "Learning the language of vanilla JavaScript and its function.",
+            role: "Developer",
+            challenges: "To code with JavaScript together with HTML and CSS. Using new variables and Data " +
+                "Type and also simple calculations such as addition, subtraction and multiplication.",
+            image : "../../img_2.png"
         }
     ];
 
