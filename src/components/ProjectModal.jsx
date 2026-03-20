@@ -10,8 +10,7 @@ export default function ProjectModal({ project, onClose }) {
             <img key={'p_img'} src="../../img.png" />
         </div>
 
-        <p><strong>Description:</strong> {project.desc}</p>
-        <p>{project.writeup}</p>
+        <p><strong>Description:</strong> {project.writeup}</p>
 
         <p><strong>Tech Stack:</strong> {project.techStack.join(", ")}</p>
         <p><strong>Role:</strong> {project.role}</p>
